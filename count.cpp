@@ -95,7 +95,7 @@ int main()
 			}
 	    } 
 		vs=temp;
-		for(vector<VOTE> ::iterator it=vs.begin();it!=vs.end();++it)  //对vs 按照name,a在前b在后 
+		for(vector<VOTE> ::iterator it=vs.begin();it!=vs.end();++it)  //对vs 按照name排序,a在前b在后 
 	    {
             for(vector<VOTE> ::iterator itt=it+1;itt!=vs.end();++itt)
 		    {
